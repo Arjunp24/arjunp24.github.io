@@ -11,30 +11,46 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
+- name: Python
+  #logo: /images/sections/skills/kubernetes.png
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  url: "https://www.python.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
+- name: Java
+  #logo: /images/sections/skills/go.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  url: "https://www.java.com/en/"
 
-- name: Cloud Computing
+- name: Machine Learning/ Deep Learning
   logo: /images/sections/skills/cloud.png
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
 
-- name: Docker
+- name: SQL
   logo: /images/sections/skills/docker.svg
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   url: "https://www.docker.com/"
 
-- name: Prometheus
+- name: AWS
   logo: /images/sections/skills/prometheus.png
   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+  url: "https://aws.amazon.com/"
 
+- name: Python Libraries
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  
+- name: Hadoop
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  
+- name: Spark
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: ElasicSearch
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
@@ -44,6 +60,6 @@ skills:
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
   url: "https://git-scm.com/"
 
-- name: C++
+- name: C/C++
   logo: /images/sections/skills/c++.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
