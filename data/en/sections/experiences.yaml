@@ -11,54 +11,42 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Glasswing Ventures
+    url: "https://www.glasswing.vc"
+    location: Boston, MA
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Data Science Intern
+    start: Jan 2021
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
+    - Developing the Glasswing platform and workflows to support investment and platform teams.
+    - Collecting, aggregating and analyzing data from disparate public and private databases to enrich the platform.
+    - Building data models for both structured and unstructured data to continuously improve predictive performance of prospective AI investments. 
+  
 - company:
-    name: PreExample Co.
-    url: "https://www.preexample.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Khoury College of Computer Sciences, Northeastern University.
+    url: "https://www.khoury.northeastern.edu/"
+    location: Boston, MA
+    #overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Teaching Assistant
+    start: May 2020
+    end: Dec 2020
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
+    - Assisting Prof. Virgil Pavlu in grading assignments, presenting demos and class logistics for Information Retrieval course.
+    - Debugging / Troubleshooting the coding assignments of around 25 students every week and answering their questions. 
+  
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: DRDO
+    url: "https://www.drdo.gov.in/home"
+    location: Bangalore, India
+    #overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Machine Learning Reswarch Intern
+    start: Dec 2018
+    end: May 2019
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Implemented a pipeline of 4 different Machine Learning models that achieved an accuracy of 97.3%.
+    - Pipeline included Naive Bayes, XGBoost, KNN, Decision Trees models that (a) identified whether media transfer occurred in a WhatsApp chat and (b) classified WhatsApp messages as delivered, received or seen.
+    - Researched WhatsApp’s network architecture and discovered patterns in WhatsApp’s traffic flow.
