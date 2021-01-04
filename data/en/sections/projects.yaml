@@ -16,8 +16,6 @@ buttons:
   filter: "nlp"
 - name: CV
   filter: "cv"
-- name: Machine Learning
-  filter: "ml"
 - name: Big Data
   filter: "bigdata"
 - name: Information Retrieval
@@ -78,3 +76,35 @@ projects:
   repo: https://github.ccs.neu.edu/xelese/cs5200-fall2019-RaviKaizArjun
   summary: ●Designed and built a JavaScript-based website for patients to look up doctors based on medical conditions and location. <br>●Integrated RESTful services as a Middle Level Tier to handle CRUD operations using JPA controllers and DAOs. <br>●Built a robust database using MySQL and formulated advanced queries like joins, nested queries, triggers, views. <br>●Hosted the database on AWS RDS and the entire website on AWS Elastic Beanstalk as an EC2 instance.
   tags: ["backend", "frontend", "cloud"]
+
+- name: Topical Web Crawler
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+  timeline: "Jan 2020"
+  repo: https://github.com/Arjunp24/web-crawler
+  summary: ● Implemented an algorithm for a web crawler using link graphs and customized priority queues.<br>● Crawled over 140,000 web pages on Barack Obama and indexed the crawl data on ElasticCloud.<br>● Created a Vertical Search using Flask to retrieve relevant pages based on keywords using BM25 text retrieval model.
+  tags: ["ir", "frontend", "cloud"]
+  
+- name: Neural Style Transfer
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+  timeline: "May 2020"
+  repo: https://github.com/Arjunp24/style-transfer-vgg
+  summary: ● Developed a CNN that applies the style of an image onto the content of another image.<br>● Extracted features and constructed loss function for style and content using Gram Matrix.<br>● Performed Transfer Learning from VGG19 model to build CNN.
+  tags: ["cv"]
+  
+- name: Automatic Speech Recogniser
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+  timeline: "Jul 2020"
+  repo: https://github.com/Arjunp24/automatic-speech-recognizer
+  summary: ● Implemented an End-to-End Automatic Speech recognition pipeline using Keras.<br>● Preprocessed raw audio to feature representations like MFCC and Spectrograms.<br>● Built Acoustic Models to map audio features to the transcribed text.<br>● Experimented with different Neural Network architectures that include: Deep RNN + TimeDistributed Dense, CNN + RNN + TimeDistributed Dense, Bidirectional RNN + TimeDistributed Dense.
+  tags: ["nlp"]
+  
+- name: Email Spam/Ham Classifier
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+  timeline: "Apr 2020"
+  repo: https://github.com/Arjunp24/
+  summary: ● Performed text preprocessing by email parsing, stemming and stopword removal using NLTK.<br>● Indexed the data to Elasticsearch and transformed text data to sparse matrices using CountVectorizer.<br>● Devised feature extraction using NLP techniques like Skipgrams and TFIDF.<br>● Developed Decision Trees, Logistic Regression and SVM models to achieve an ROC score of 96%.
+  tags: ["nlp"]
