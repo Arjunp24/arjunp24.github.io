@@ -36,7 +36,7 @@ projects:
 #   role: Contributor
   timeline: "May 2020"
   repo: https://github.com/Arjunp24/sentiment-analysis-sagemaker
-  summary: Developed a Web App that predicts the sentiment of an user input review. Performed text cleaning and preprocessing including stemming, stopword removal, tokenization and HTML parsing for over 50,000 reviews and uploaded the transformed data to AWS S3. Built an LSTM model with Word Embedding layer using skip-gram architecture to learn sentiments from the data. Deployed the model for testing on AWS Sagemaker and achieved a test accuracy of 84%. Hosted the model on my Web App using AWS Lambda and AWS API Gateway.
+  summary: Developed a Web App that predicts the sentiment of an user input review. <br>Performed text cleaning and preprocessing including stemming, stopword removal, tokenization and HTML parsing for over 50,000 reviews and uploaded the transformed data to AWS S3. Built an LSTM model with Word Embedding layer using skip-gram architecture to learn sentiments from the data. Deployed the model for testing on AWS Sagemaker and achieved a test accuracy of 84%. Hosted the model on my Web App using AWS Lambda and AWS API Gateway.
   tags: ["nlp", "frontend", "cloud"]
 
 - name: Machine Translation
