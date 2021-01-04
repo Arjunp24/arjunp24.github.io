@@ -15,7 +15,7 @@ buttons:
 - name: NLP
   filter: "nlp"
 - name: CV
-  filter: "CV"
+  filter: "cv"
 - name: Machine Learning
   filter: "ml"
 - name: Big Data
@@ -36,7 +36,7 @@ projects:
 #   role: Contributor
   timeline: "May 2020"
   repo: https://github.com/Arjunp24/sentiment-analysis-sagemaker
-  summary: Developed a Web App that predicts the sentiment of an user input review. <br>Performed text cleaning and preprocessing including stemming, stopword removal, tokenization and HTML parsing for over 50,000 reviews and uploaded the transformed data to AWS S3. Built an LSTM model with Word Embedding layer using skip-gram architecture to learn sentiments from the data. Deployed the model for testing on AWS Sagemaker and achieved a test accuracy of 84%. Hosted the model on my Web App using AWS Lambda and AWS API Gateway.
+  summary: ●Developed a Web App that predicts the sentiment of an user input review. <br>●Performed text cleaning and preprocessing including stemming, stopword removal, tokenization and HTML parsing for over 50,000 reviews and uploaded the transformed data to AWS S3. <br>●Built an LSTM model with Word Embedding layer using skip-gram architecture to learn sentiments from the data. <br>●Deployed the model for testing on AWS Sagemaker and achieved a test accuracy of 84%. <br>●Hosted the model on my Web App using AWS Lambda and AWS API Gateway.
   tags: ["nlp", "frontend", "cloud"]
 
 - name: Machine Translation
@@ -44,7 +44,7 @@ projects:
 #   role: Developer
   timeline: "Jun 2020"
   repo: https://github.com/Arjunp24/machine-translation
-  summary: Built a Machine Translation model that translates English sentences to French using Keras. Developed a comprehensive pipeline to preprocess over 1.8 million English and French words. Experimented with different architectures that include; Embedding layer + Bidirectional-GRU, Embedding layer with GRU, Bidirectional-GRU, Vanilla GRU, Encoder-Decoder with LSTM.
+  summary: ●Built a Machine Translation model that translates English sentences to French using Keras. <br>●Developed a comprehensive pipeline to preprocess over 1.8 million English and French words. <br>●Experimented with different architectures that include; Embedding layer + Bidirectional-GRU, Embedding layer with GRU, Bidirectional-GRU, Vanilla GRU, Encoder-Decoder with LSTM.
   tags: ["nlp"]
 
 # - name: A sample academic paper
@@ -60,7 +60,7 @@ projects:
   timeline: "Jul 2020"
   repo: https://github.com/Arjunp24
   #url: ""
-  summary: Created custom MNIST image dataset by adding Gaussian noise. Implemented a Denoiser by using an Encoder-Decoder model with Convolutional layers. Trained the Denoiser by supplying noise images as input and original images as target.
+  summary: ●Created custom MNIST image dataset by adding Gaussian noise. <br>●Implemented a Denoiser by using an Encoder-Decoder model with Convolutional layers. <br>●Trained the Denoiser by supplying noise images as input and original images as target.
   tags: ["cv"]
 
 - name: Dog Breed Classifier Using CNN
@@ -68,7 +68,7 @@ projects:
   role: Owner
   timeline: "Apr 2020"
   repo: https://github.com/Arjunp24/dog-breed-classifier
-  summary: Created a CNN that predicts the dog breed if given a dog image or the closest dog breed resemblance when given a human image. Detected human faces in the images using OpenCVs Haar Cascades. Performed dog face detection and breed classification using Transfer Learning from VGG16 model and achieved 86% accuracy on unseen data.
+  summary: ●Created a CNN that predicts the dog breed if given a dog image or the closest dog breed resemblance when given a human image. <br>●Detected human faces in the images using OpenCVs Haar Cascades. <br>●Performed dog face detection and breed classification using Transfer Learning from VGG16 model and achieved 86% accuracy on unseen data.
   tags: ["cv"]
   
 - name: Patient Experience Website
@@ -76,5 +76,5 @@ projects:
 #   role: Owner
   timeline: "Oct 2019 - Dec 2020"
   repo: https://github.ccs.neu.edu/xelese/cs5200-fall2019-RaviKaizArjun
-  summary: Designed and built a JavaScript-based website for patients to look up doctors based on medical conditions and location. Integrated RESTful services as a Middle Level Tier to handle CRUD operations using JPA controllers and DAOs. Built a robust database using MySQL and formulated advanced queries like joins, nested queries, triggers, views. Hosted the database on AWS RDS and the entire website on AWS Elastic Beanstalk as an EC2 instance.
-  tags: ["backend", "frontend"]
+  summary: ●Designed and built a JavaScript-based website for patients to look up doctors based on medical conditions and location. <br>●Integrated RESTful services as a Middle Level Tier to handle CRUD operations using JPA controllers and DAOs. <br>●Built a robust database using MySQL and formulated advanced queries like joins, nested queries, triggers, views. <br>●Hosted the database on AWS RDS and the entire website on AWS Elastic Beanstalk as an EC2 instance.
+  tags: ["backend", "frontend", "cloud"]
