@@ -18,7 +18,7 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Diagnosed with an acute Curiosity for Understanding Data.☻ <br>I'm a Machine Learning and Data Science enthusiast with demonstrated array of research projects in the field of Natural Language Processing and Computer Vision.<br>Currently, a Data Scientist intern at Glasswing Ventures where I'm developing models for both structured and unstructured data to improve predictive performance for prospective AI investments.<br>Previously, worked as a Machine Learning Research Intern at the prestigious Defense Research and Development Organization, India where I applied Machine Learning Algorithms to detect network security inadequacies in WhatsApp's network architecture. '
+summary: 'Diagnosed with an acute Curiosity for Understanding Data.☻ <br>I am a Machine Learning and Data Science enthusiast with demonstrated array of research projects in the field of Natural Language Processing and Computer Vision.<br>Currently, a Data Scientist intern at Glasswing Ventures where I develop models for both structured and unstructured data to improve predictive performance for prospective AI investments.<br>Previously, worked as a Machine Learning Research Intern at the prestigious Defense Research and Development Organization, India where I applied Machine Learning Algorithms to detect network security inadequacies in WhatsApps network architecture. '
 #summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
 
 # your social links
