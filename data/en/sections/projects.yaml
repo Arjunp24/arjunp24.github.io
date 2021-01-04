@@ -62,8 +62,8 @@ projects:
   tags: ["cv"]
 
 - name: Dog Breed Classifier Using CNN
-  logo: /images/sections/projects/toha.png
-  role: Owner
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
   timeline: "Apr 2020"
   repo: https://github.com/Arjunp24/dog-breed-classifier
   summary: ●Created a CNN that predicts the dog breed if given a dog image or the closest dog breed resemblance when given a human image. <br>●Detected human faces in the images using OpenCVs Haar Cascades. <br>●Performed dog face detection and breed classification using Transfer Learning from VGG16 model and achieved 86% accuracy on unseen data.
@@ -108,3 +108,4 @@ projects:
   repo: https://github.com/Arjunp24/
   summary: ● Performed text preprocessing by email parsing, stemming and stopword removal using NLTK.<br>● Indexed the data to Elasticsearch and transformed text data to sparse matrices using CountVectorizer.<br>● Devised feature extraction using NLP techniques like Skipgrams and TFIDF.<br>● Developed Decision Trees, Logistic Regression and SVM models to achieve an ROC score of 96%.
   tags: ["nlp"]
+
