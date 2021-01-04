@@ -98,7 +98,7 @@ projects:
 #   role: Owner
   timeline: "Jul 2020"
   repo: https://github.com/Arjunp24/automatic-speech-recognizer
-  summary: ● Implemented an End-to-End Automatic Speech recognition pipeline using Keras.<br>● Preprocessed raw audio to feature representations like MFCC and Spectrograms.<br>● Built Acoustic Models to map audio features to the transcribed text.<br>● Experimented with different Neural Network architectures that include: Deep RNN + TimeDistributed Dense, CNN + RNN + TimeDistributed Dense, Bidirectional RNN + TimeDistributed Dense.
+  summary: ● Implemented an End-to-End Automatic Speech recognition pipeline using Keras.<br>● Preprocessed raw audio to feature representations like MFCC and Spectrograms.<br>● Built Acoustic Models to map audio features to the transcribed text.<br>● Experimented with different Neural Network architectures that include; Deep RNN + TimeDistributed Dense, CNN + RNN + TimeDistributed Dense, Bidirectional RNN + TimeDistributed Dense.
   tags: ["nlp"]
   
 - name: Email Spam/Ham Classifier
