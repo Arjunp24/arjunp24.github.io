@@ -12,13 +12,13 @@ section:
 certifications:
 - title: Deep Learning Specialization
 #   image: /images/sections/achievements/presenter.jpg
-  summary: From: Deeplearning.ai (Coursera)
+  summary: Provided by Deeplearning.ai (Coursera)
 - title: GAN Specialization
 #   image: /images/sections/achievements/sport.jpg
-  summary: From: Deeplearning.ai (Coursera)
+  summary: Provided by Deeplearning.ai (Coursera)
 - title: Deep Learning Nanodegree
 #   image: /images/sections/achievements/graduation-cap.jpg
-  summary: From: Udacity
+  summary: Provided by Udacity
 - title: Natural Language Processing Nanodegree
 #   image: /images/sections/achievements/woman-winner.jpg
-  summary: From: Udacity
+  summary: Provided by Udacity
