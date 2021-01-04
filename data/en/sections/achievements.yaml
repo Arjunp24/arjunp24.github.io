@@ -11,16 +11,16 @@ section:
 # Your achievements achievements
 achievements:
 - title: Deep Learning Specialization
-#   image: /images/sections/achievements/presenter.jpg
+  image: /images/sections/achievements/presenter.jpg
   summary: Provided by Deeplearning.ai (Coursera)
 - title: GAN Specialization
-#   image: /images/sections/achievements/sport.jpg
+  image: /images/sections/achievements/sport.jpg
   summary: Provided by Deeplearning.ai (Coursera)
 - title: Deep Learning Nanodegree
-#   image: /images/sections/achievements/graduation-cap.jpg
+  image: /images/sections/achievements/graduation-cap.jpg
   summary: Provided by Udacity
 - title: Natural Language Processing Nanodegree
-#   image: /images/sections/achievements/woman-winner.jpg
+  image: /images/sections/achievements/woman-winner.jpg
   summary: Provided by Udacity
 # - title: Best Presenter
 #   image: /images/sections/achievements/presenter.jpg
