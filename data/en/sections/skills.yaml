@@ -13,53 +13,56 @@ section:
 skills:
 - name: Python
   #logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://www.python.org/"
 
 - name: Java
   #logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "Proficient at coding in Java. Well-versed in Object Oriented Programming."
   url: "https://www.java.com/en/"
 
 - name: Machine Learning/ Deep Learning
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+#   logo: /images/sections/skills/cloud.png
+  summary: "Adept with the math and implementation details of most ML/DL algorithms including CNNs, RNNs, GANs, LSTM/GRU, SVM, Random Forest, Kmeans, KNN, Linear Regression, Logistic Regression, Naive Bayes. Using PyTorch, Tensorflow and Scitkit-Learn primarily for developing models."
 
 - name: SQL
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+#   logo: /images/sections/skills/docker.svg
+  summary: "Experienced with writing advanced queries including sub-queries, views, nested queries, joins and triggers. Familiar with MySQL, PostgreSQL, SQLite and SQL Server."
+  url: "https://www.mysql.com/"
 
 - name: AWS
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+#   logo: /images/sections/skills/prometheus.png
+  summary: "Capable of setup, configuration and deployment of applications on services such as AWS SageMaker, AWS RDS, AWS Elastic MapReduce, AWS S3, AWS Lambda, AWS API Gateway and AWS ElasticBeanstalk."
   url: "https://aws.amazon.com/"
 
 - name: Python Libraries
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+#   logo: /images/sections/skills/linux.png
+  summary: "Outstanding knowledge of various Python Libraries such as Numpy, Pandas, Sckit-Learn, PyTorch, Tensorflow, Matplotlib, Seaborn, NLTK, BeautifulSoup and Flask."
   
 - name: Hadoop
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+#   logo: /images/sections/skills/linux.png
+  summary: "TBA."
+  url: "https://hadoop.apache.org/"
   
 - name: Spark
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+#   logo: /images/sections/skills/linux.png
+  summary: "TBA."
+  url: "https://spark.apache.org/"
 
 - name: ElasicSearch
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+#   logo: /images/sections/skills/linux.png
+  summary: "TBA."
+  url: "https://www.elastic.co/"
   
 - name: Linux
-  logo: /images/sections/skills/linux.png
+#   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
 - name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+#   logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development and workflows."
   url: "https://git-scm.com/"
 
 - name: C/C++
-  logo: /images/sections/skills/c++.png
+#   logo: /images/sections/skills/c++.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
