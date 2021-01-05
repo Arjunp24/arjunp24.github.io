@@ -26,6 +26,8 @@ buttons:
   filter: "frontend"
 - name: Cloud
   filter: "cloud"
+- name: Software Dev
+  filter: "sde"
 
 # your projects
 projects:
@@ -34,7 +36,7 @@ projects:
 #   role: Contributor
   timeline: "May 2020"
   repo: https://github.com/Arjunp24/sentiment-analysis-sagemaker
-  summary: ●Developed a Web App that predicts the sentiment of an user input review. <br>●Performed text cleaning and preprocessing including stemming, stopword removal, tokenization and HTML parsing for over 50,000 reviews and uploaded the transformed data to AWS S3. <br>●Built an LSTM model with Word Embedding layer using skip-gram architecture to learn sentiments from the data. <br>●Deployed the model for testing on AWS Sagemaker and achieved a test accuracy of 84%. <br>●Hosted the model on my Web App using AWS Lambda and AWS API Gateway.
+  summary: ● Developed a Web App that predicts the sentiment of an user input review. <br>● Performed text cleaning and preprocessing including stemming, stopword removal, tokenization and HTML parsing for over 50,000 reviews and uploaded the transformed data to AWS S3. <br>● Built an LSTM model with Word Embedding layer using skip-gram architecture to learn sentiments from the data. <br>● Deployed the model for testing on AWS Sagemaker and achieved a test accuracy of 84%. <br>● Hosted the model on my Web App using AWS Lambda and AWS API Gateway.
   tags: ["nlp", "frontend", "cloud"]
 
 - name: Machine Translation
@@ -42,7 +44,7 @@ projects:
 #   role: Developer
   timeline: "Jun 2020"
   repo: https://github.com/Arjunp24/machine-translation
-  summary: ●Built a Machine Translation model that translates English sentences to French using Keras. <br>●Developed a comprehensive pipeline to preprocess over 1.8 million English and French words. <br>●Experimented with different architectures that include; Embedding layer + Bidirectional-GRU, Embedding layer with GRU, Bidirectional-GRU, Vanilla GRU, Encoder-Decoder with LSTM.
+  summary: ● Built a Machine Translation model that translates English sentences to French using Keras. <br>● Developed a comprehensive pipeline to preprocess over 1.8 million English and French words. <br>● Experimented with different architectures that include; Embedding layer + Bidirectional-GRU, Embedding layer with GRU, Bidirectional-GRU, Vanilla GRU, Encoder-Decoder with LSTM.
   tags: ["nlp"]
 
 # - name: A sample academic paper
@@ -58,7 +60,7 @@ projects:
   timeline: "Jul 2020"
   repo: https://github.com/Arjunp24
   #url: ""
-  summary: ●Created custom MNIST image dataset by adding Gaussian noise. <br>●Implemented a Denoiser by using an Encoder-Decoder model with Convolutional layers. <br>●Trained the Denoiser by supplying noise images as input and original images as target.
+  summary: ● Created custom MNIST image dataset by adding Gaussian noise. <br>● Implemented a Denoiser by using an Encoder-Decoder model with Convolutional layers. <br>● Trained the Denoiser by supplying noise images as input and original images as target.
   tags: ["cv"]
 
 - name: Dog Breed Classifier Using CNN
@@ -66,7 +68,7 @@ projects:
 #   role: Owner
   timeline: "Apr 2020"
   repo: https://github.com/Arjunp24/dog-breed-classifier
-  summary: ●Created a CNN that predicts the dog breed if given a dog image or the closest dog breed resemblance when given a human image. <br>●Detected human faces in the images using OpenCVs Haar Cascades. <br>●Performed dog face detection and breed classification using Transfer Learning from VGG16 model and achieved 86% accuracy on unseen data.
+  summary: ● Created a CNN that predicts the dog breed if given a dog image or the closest dog breed resemblance when given a human image. <br>● Detected human faces in the images using OpenCVs Haar Cascades. <br>● Performed dog face detection and breed classification using Transfer Learning from VGG16 model and achieved 86% accuracy on unseen data.
   tags: ["cv"]
   
 - name: Patient Experience Website
@@ -74,7 +76,7 @@ projects:
 #   role: Owner
   timeline: "Oct 2019 - Dec 2020"
   repo: https://github.ccs.neu.edu/xelese/cs5200-fall2019-RaviKaizArjun
-  summary: ●Designed and built a JavaScript-based website for patients to look up doctors based on medical conditions and location. <br>●Integrated RESTful services as a Middle Level Tier to handle CRUD operations using JPA controllers and DAOs. <br>●Built a robust database using MySQL and formulated advanced queries like joins, nested queries, triggers, views. <br>●Hosted the database on AWS RDS and the entire website on AWS Elastic Beanstalk as an EC2 instance.
+  summary: ● Designed and built a JavaScript-based website for patients to look up doctors based on medical conditions and location. <br>● Integrated RESTful services as a Middle Level Tier to handle CRUD operations using JPA controllers and DAOs. <br>● Built a robust database using MySQL and formulated advanced queries like joins, nested queries, triggers, views. <br>● Hosted the database on AWS RDS and the entire website on AWS Elastic Beanstalk as an EC2 instance.
   tags: ["backend", "frontend", "cloud"]
 
 - name: Topical Web Crawler
@@ -109,3 +111,36 @@ projects:
   summary: ● Performed text preprocessing by email parsing, stemming and stopword removal using NLTK.<br>● Indexed the data to Elasticsearch and transformed text data to sparse matrices using CountVectorizer.<br>● Devised feature extraction using NLP techniques like Skipgrams and TFIDF.<br>● Developed Decision Trees, Logistic Regression and SVM models to achieve an ROC score of 96%.
   tags: ["nlp"]
 
+- name: Image Segmentation using K-Means Clustering on MapReduce 
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+  timeline: "Nov 2020"
+  repo: https://github.com/Arjunp24/kmean-image-segmentation-mapreduce
+  summary: ● Attained Speedup of 1.35 and Scaleup of 1.05 while performing Image Segmentation.<br>● Designed the K-Means algorithm from scratch to work on distributed sources of data and paralleize compute using Hadoop ecosystem. 
+  tags: ["bigdata", "cloud"]
+  
+  
+- name: Face Mask Detection 
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+  timeline: "Dec 2020"
+  repo: https://github.com/Arjunp24/kmean-image-segmentation-mapreduce
+  summary: ● Achieved sensitivity of 96% on the largest real-world Face Mask Dataset.<br>● Built a custom ResNet model with Data Augmentation.<br>● Implemented a Face Detection pipeline using YOLOv5 and OpenCV to detect faces.
+  tags: ["cv"]
+  
+- name: Human Protein Classification
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+  timeline: "Jul 2020"
+  repo: https://github.com/Arjunp24/human-protein-classification
+  summary: ● Ranked in the top 20% of Human Protein Classification Kaggle Competition.<br>● Developed CNNs using Densenet and Resnet capable of classifying mixed patterns of proteins in microscope images.
+  tags: ["cv"]
+  
+  
+- name: Image Processing Application 
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+  timeline: "Nov 2019"
+  repo: https://github.com/Arjunp24/
+  summary: ● Built an Image Filter App that applies various filters on user input images.<br>● Implemented image processing operations such as blur, greyscale, sepia and mosaic from scratch.<br>● Devised an MVC architecture using Object Oriented Programming and Command Pattern Design.<br>● Additional features include generating custom images such as rainbow, checkerboards and flags based on user input.
+  tags: ["sde"]
