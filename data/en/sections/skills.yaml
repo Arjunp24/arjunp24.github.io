@@ -41,17 +41,17 @@ skills:
   
 - name: Hadoop
 #   logo: /images/sections/skills/linux.png
-  summary: "TBA."
+  summary: "Proficient at designing distributed programs using Hadoop ecosystem. Capable of implementing joins, graph problems and Machine Learning algorithms using parallelism."
   url: "https://hadoop.apache.org/"
   
 - name: Spark
 #   logo: /images/sections/skills/linux.png
-  summary: "TBA."
+  summary: "Proficient at designing distributed programs in the Spark ecosystem using Scala. Good knowledge of libraries such as GraphX, SparkQL and MLib."
   url: "https://spark.apache.org/"
 
 - name: ElasicSearch
 #   logo: /images/sections/skills/linux.png
-  summary: "TBA."
+  summary: "Using to setup inverted indices and build retrieval models. Also familiar with ElasticCloud and Kibana."
   url: "https://www.elastic.co/"
   
 - name: Linux
