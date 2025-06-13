@@ -468,7 +468,7 @@
                   All</button>
                   <button type=button class="btn btn-dark" data-filter=nlp>
                   NLP</button>
-                  <button type=button class="btn btn-dark" data-filter=nlp>
+                  <button type=button class="btn btn-dark" data-filter=genai>
                   Gen AI</button>
                   <button type=button class="btn btn-dark" data-filter=cv>
                   CV</button>
@@ -488,6 +488,59 @@
             </div>
             <div class="container filtr-projects">
                <div class=row id=project-card-holder>
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, genai, nlp">
+                     <div class="card mt-1">
+                        <div class=card>
+                           <a class=card-header>
+                              <div>
+                                 <div class=d-flex>
+                                    <h5 class="card-title mb-0">Fine-tuned Phi-3 VLM on CIFAR10 Image</h5>
+                                 </div>
+                                 <div class=sub-title><span></span><span>Jul 2020</span></div>
+                              </div>
+                           </a>
+                           <div class="card-body text-justify pt-1 pb-1">
+                              <p>● Created a dataset with Question Answer pairs by generating image descriptions using SmolVLM2 on CIFAR10 images.<br>● Generated aligned image embeddings using SigLIP model.<br>● Fine-tuned Phi-3 as VLM for vision-text alignment using QLoRA and descriptions based on image embeddings from the SigLIP model.<br>● Optimized training with 4-bit quantization, Flash Attention 2, gradient checkpointing, and mixed-precision training, achieving memory-efficient and stable model convergence.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=row id=project-card-holder>
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, genai, nlp">
+                     <div class="card mt-1">
+                        <div class=card>
+                           <a class=card-header>
+                              <div>
+                                 <div class=d-flex>
+                                    <h5 class="card-title mb-0">Shakespearean Text Generator</h5>
+                                 </div>
+                                 <div class=sub-title><span></span><span>Jul 2020</span></div>
+                              </div>
+                           </a>
+                           <div class="card-body text-justify pt-1 pb-1">
+                              <p>● Designed and trained a GPT-2 model from scratch on Shakespeare’s complete works to generate stylistically authentic text.<br>● Implemented tokenization, dataset preprocessing, and transformer architecture customization with UI app using Gradio.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=row id=project-card-holder>
+                  <div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, genai, nlp">
+                     <div class="card mt-1">
+                        <div class=card>
+                           <a class=card-header>
+                              <div>
+                                 <div class=d-flex>
+                                    <h5 class="card-title mb-0">News Summarization Agent</h5>
+                                 </div>
+                                 <div class=sub-title><span></span><span>Jul 2020</span></div>
+                              </div>
+                           </a>
+                           <div class="card-body text-justify pt-1 pb-1">
+                              <p>● Developed an AI-driven news aggregation and summarization agent leveraging LangGraph and MCP to automate the discovery, analysis, and synthesis of news articles.<br>● Designed a dynamic workflow that interprets user queries, collects and evaluates articles from multiple sources using NewsAPI and Beautiful Soup, and generates cohesive, multi-article summaries using advanced language models like gpt-4o-mini.<br>● Implemented adaptive search strategies, parallel content analysis, and context-aware summarization to deliver actionable insights and reduce information overload.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                   <div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, nlp,frontend,cloud">
                      <div class="card mt-1">
                         <div class=card>
